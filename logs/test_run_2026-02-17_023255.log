@@ -1,0 +1,33 @@
+2026-02-17 02:32:55 | api_test | INFO | 
+============================================================
+2026-02-17 02:32:55 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_get_nonexistent_user
+2026-02-17 02:32:55 | api_test | INFO | ============================================================
+2026-02-17 02:32:55 | api_test | INFO | ================================================================================
+2026-02-17 02:32:55 | api_test | INFO |  STARTING TEST SESSION
+2026-02-17 02:32:55 | api_test | INFO | ================================================================================
+2026-02-17 02:32:55 | api_test | INFO | API Client initialized with base URL: https://jsonplaceholder.typicode.com
+2026-02-17 02:32:55 | api_test | INFO | Status: 404
+2026-02-17 02:32:55 | api_test | INFO | ✅ PASSED: tests/test_users.py::TestUsers::test_get_nonexistent_user
+2026-02-17 02:32:55 | api_test | INFO |  Finished: test_get_nonexistent_user
+
+2026-02-17 02:32:55 | api_test | INFO | 
+============================================================
+2026-02-17 02:32:55 | api_test | INFO |  Running: tests/test_users.py::TestUsersNegative::test_create_user_with_invalid_data
+2026-02-17 02:32:55 | api_test | INFO | ============================================================
+2026-02-17 02:32:55 | api_test | INFO | Body: {'name': '', 'email': 'not-an-email'}
+2026-02-17 02:32:55 | api_test | INFO | Status: 201
+2026-02-17 02:32:55 | api_test | INFO | ✅ PASSED: tests/test_users.py::TestUsersNegative::test_create_user_with_invalid_data
+2026-02-17 02:32:55 | api_test | INFO |  Finished: test_create_user_with_invalid_data
+
+2026-02-17 02:32:55 | api_test | INFO | 
+============================================================
+2026-02-17 02:32:55 | api_test | INFO |  Running: tests/test_users.py::TestUsersNegative::test_update_nonexistent_user
+2026-02-17 02:32:55 | api_test | INFO | ============================================================
+2026-02-17 02:32:55 | api_test | INFO | Body: {'name': 'Test'}
+2026-02-17 02:32:55 | api_test | INFO | Status: 500
+2026-02-17 02:32:55 | api_test | INFO | ✅ PASSED: tests/test_users.py::TestUsersNegative::test_update_nonexistent_user
+2026-02-17 02:32:55 | api_test | INFO |  Finished: test_update_nonexistent_user
+
+2026-02-17 02:32:55 | api_test | INFO | ================================================================================
+2026-02-17 02:32:55 | api_test | INFO |  TEST SESSION COMPLETED
+2026-02-17 02:32:55 | api_test | INFO | ================================================================================

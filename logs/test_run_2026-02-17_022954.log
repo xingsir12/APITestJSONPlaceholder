@@ -1,0 +1,117 @@
+2026-02-17 02:29:54 | api_test | INFO | 
+============================================================
+2026-02-17 02:29:54 | api_test | INFO |  Running: tests/test_comments.py::TestComments::test_comments_have_required_fields
+2026-02-17 02:29:54 | api_test | INFO | ============================================================
+2026-02-17 02:29:54 | api_test | INFO | ================================================================================
+2026-02-17 02:29:54 | api_test | INFO |  STARTING TEST SESSION
+2026-02-17 02:29:54 | api_test | INFO | ================================================================================
+2026-02-17 02:29:54 | api_test | INFO | API Client initialized with base URL: https://jsonplaceholder.typicode.com
+2026-02-17 02:30:01 | api_test | ERROR | FAILED: tests/test_comments.py::TestComments::test_comments_have_required_fields
+2026-02-17 02:30:01 | api_test | ERROR |      Error: tests\test_comments.py:47: in test_comments_have_required_fields
+    response = api_client.get_comments(post_id=1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:119: in get_comments
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:30:01 | api_test | INFO |  Finished: test_comments_have_required_fields
+
+2026-02-17 02:30:01 | api_test | INFO | 
+============================================================
+2026-02-17 02:30:01 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_get_posts_by_user
+2026-02-17 02:30:01 | api_test | INFO | ============================================================
+2026-02-17 02:30:01 | api_test | ERROR | FAILED: tests/test_posts.py::TestPosts::test_get_posts_by_user
+2026-02-17 02:30:01 | api_test | ERROR |      Error: tests\test_posts.py:29: in test_get_posts_by_user
+    response = api_client.get_posts(user_id=user_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:77: in get_posts
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:30:01 | api_test | INFO |  Finished: test_get_posts_by_user
+
+2026-02-17 02:30:02 | api_test | INFO | 
+============================================================
+2026-02-17 02:30:02 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_create_post
+2026-02-17 02:30:02 | api_test | INFO | ============================================================
+2026-02-17 02:30:02 | api_test | INFO | Body: {'title': 'Test Post', 'body': 'Test post content', 'userId': 1}
+2026-02-17 02:30:02 | api_test | ERROR | FAILED: tests/test_posts.py::TestPosts::test_create_post
+2026-02-17 02:30:02 | api_test | ERROR |      Error: tests\test_posts.py:56: in test_create_post
+    response = api_client.create_post(sample_post)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:93: in create_post
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:30:02 | api_test | INFO |  Finished: test_create_post
+
+2026-02-17 02:30:02 | api_test | INFO | 
+============================================================
+2026-02-17 02:30:02 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_update_post
+2026-02-17 02:30:02 | api_test | INFO | ============================================================
+2026-02-17 02:30:02 | api_test | INFO | Body: {'title': 'Updated Title', 'body': 'Updated content', 'userId': 1}
+2026-02-17 02:30:02 | api_test | ERROR | FAILED: tests/test_posts.py::TestPosts::test_update_post
+2026-02-17 02:30:02 | api_test | ERROR |      Error: tests\test_posts.py:75: in test_update_post
+    response = api_client.update_post(1, updated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:101: in update_post
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:30:02 | api_test | INFO |  Finished: test_update_post
+
+2026-02-17 02:30:02 | api_test | INFO | 
+============================================================
+2026-02-17 02:30:02 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_delete_post
+2026-02-17 02:30:02 | api_test | INFO | ============================================================
+2026-02-17 02:30:02 | api_test | ERROR | FAILED: tests/test_posts.py::TestPosts::test_delete_post
+2026-02-17 02:30:02 | api_test | ERROR |      Error: tests\test_posts.py:85: in test_delete_post
+    response = api_client.delete_post(1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:109: in delete_post
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:30:02 | api_test | INFO |  Finished: test_delete_post
+
+2026-02-17 02:30:02 | api_test | INFO | 
+============================================================
+2026-02-17 02:30:02 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_create_user
+2026-02-17 02:30:02 | api_test | INFO | ============================================================
+2026-02-17 02:30:02 | api_test | INFO | Body: {'name': 'Test User', 'username': 'testuser', 'email': 'test@example.com'}
+2026-02-17 02:30:02 | api_test | INFO | Status: 201
+2026-02-17 02:30:02 | api_test | INFO | ✅ PASSED: tests/test_users.py::TestUsers::test_create_user
+2026-02-17 02:30:02 | api_test | INFO |  Finished: test_create_user
+
+2026-02-17 02:30:02 | api_test | INFO | 
+============================================================
+2026-02-17 02:30:02 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_update_user
+2026-02-17 02:30:02 | api_test | INFO | ============================================================
+2026-02-17 02:30:02 | api_test | INFO | Body: {'name': 'Updated Name', 'email': 'updated@example.com'}
+2026-02-17 02:30:03 | api_test | ERROR | FAILED: tests/test_users.py::TestUsers::test_update_user
+2026-02-17 02:30:03 | api_test | ERROR |      Error: tests\test_users.py:66: in test_update_user
+    response = api_client.update_user(1, updated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:59: in update_user
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:30:03 | api_test | INFO |  Finished: test_update_user
+
+2026-02-17 02:30:03 | api_test | INFO | 
+============================================================
+2026-02-17 02:30:03 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_delete_user
+2026-02-17 02:30:03 | api_test | INFO | ============================================================
+2026-02-17 02:30:03 | api_test | ERROR | FAILED: tests/test_users.py::TestUsers::test_delete_user
+2026-02-17 02:30:03 | api_test | ERROR |      Error: tests\test_users.py:77: in test_delete_user
+    response = api_client.delete_user(1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:67: in delete_user
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:30:03 | api_test | INFO |  Finished: test_delete_user
+
+2026-02-17 02:30:03 | api_test | INFO | ================================================================================
+2026-02-17 02:30:03 | api_test | INFO |  TEST SESSION COMPLETED
+2026-02-17 02:30:03 | api_test | INFO | ================================================================================

@@ -1,0 +1,15 @@
+2026-02-17 02:33:20 | api_test | INFO | 
+============================================================
+2026-02-17 02:33:20 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_users_response_time
+2026-02-17 02:33:20 | api_test | INFO | ============================================================
+2026-02-17 02:33:20 | api_test | INFO | ================================================================================
+2026-02-17 02:33:20 | api_test | INFO |  STARTING TEST SESSION
+2026-02-17 02:33:20 | api_test | INFO | ================================================================================
+2026-02-17 02:33:20 | api_test | INFO | API Client initialized with base URL: https://jsonplaceholder.typicode.com
+2026-02-17 02:33:20 | api_test | INFO | Status: 200
+2026-02-17 02:33:20 | api_test | INFO | ✅ PASSED: tests/test_users.py::TestUsers::test_users_response_time
+2026-02-17 02:33:20 | api_test | INFO |  Finished: test_users_response_time
+
+2026-02-17 02:33:20 | api_test | INFO | ================================================================================
+2026-02-17 02:33:20 | api_test | INFO |  TEST SESSION COMPLETED
+2026-02-17 02:33:20 | api_test | INFO | ================================================================================

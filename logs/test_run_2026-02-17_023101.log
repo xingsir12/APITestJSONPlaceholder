@@ -1,0 +1,231 @@
+2026-02-17 02:31:01 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:01 | api_test | INFO |  Running: tests/test_comments.py::TestComments::test_get_all_comments
+2026-02-17 02:31:01 | api_test | INFO | ============================================================
+2026-02-17 02:31:01 | api_test | INFO | ================================================================================
+2026-02-17 02:31:01 | api_test | INFO |  STARTING TEST SESSION
+2026-02-17 02:31:01 | api_test | INFO | ================================================================================
+2026-02-17 02:31:01 | api_test | INFO | API Client initialized with base URL: https://jsonplaceholder.typicode.com
+2026-02-17 02:31:01 | api_test | ERROR | FAILED: tests/test_comments.py::TestComments::test_get_all_comments
+2026-02-17 02:31:01 | api_test | ERROR |      Error: tests\test_comments.py:11: in test_get_all_comments
+    response = api_client.get_comments()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:119: in get_comments
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:31:01 | api_test | INFO |  Finished: test_get_all_comments
+
+2026-02-17 02:31:01 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:01 | api_test | INFO |  Running: tests/test_comments.py::TestComments::test_get_comment_by_id[1]
+2026-02-17 02:31:01 | api_test | INFO | ============================================================
+2026-02-17 02:31:01 | api_test | ERROR | FAILED: tests/test_comments.py::TestComments::test_get_comment_by_id[1]
+2026-02-17 02:31:01 | api_test | ERROR |      Error: tests\test_comments.py:37: in test_get_comment_by_id
+    response = api_client.get_comment(comment_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:127: in get_comment
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:31:01 | api_test | INFO |  Finished: test_get_comment_by_id[1]
+
+2026-02-17 02:31:01 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:01 | api_test | INFO |  Running: tests/test_comments.py::TestComments::test_get_comment_by_id[10]
+2026-02-17 02:31:01 | api_test | INFO | ============================================================
+2026-02-17 02:31:01 | api_test | ERROR | FAILED: tests/test_comments.py::TestComments::test_get_comment_by_id[10]
+2026-02-17 02:31:01 | api_test | ERROR |      Error: tests\test_comments.py:37: in test_get_comment_by_id
+    response = api_client.get_comment(comment_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:127: in get_comment
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:31:01 | api_test | INFO |  Finished: test_get_comment_by_id[10]
+
+2026-02-17 02:31:01 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:01 | api_test | INFO |  Running: tests/test_comments.py::TestComments::test_get_comment_by_id[100]
+2026-02-17 02:31:01 | api_test | INFO | ============================================================
+2026-02-17 02:31:01 | api_test | ERROR | FAILED: tests/test_comments.py::TestComments::test_get_comment_by_id[100]
+2026-02-17 02:31:01 | api_test | ERROR |      Error: tests\test_comments.py:37: in test_get_comment_by_id
+    response = api_client.get_comment(comment_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:127: in get_comment
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:31:01 | api_test | INFO |  Finished: test_get_comment_by_id[100]
+
+2026-02-17 02:31:01 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:01 | api_test | INFO |  Running: tests/test_comments.py::TestComments::test_get_comment_by_id[250]
+2026-02-17 02:31:01 | api_test | INFO | ============================================================
+2026-02-17 02:31:01 | api_test | ERROR | FAILED: tests/test_comments.py::TestComments::test_get_comment_by_id[250]
+2026-02-17 02:31:01 | api_test | ERROR |      Error: tests\test_comments.py:37: in test_get_comment_by_id
+    response = api_client.get_comment(comment_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:127: in get_comment
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:31:01 | api_test | INFO |  Finished: test_get_comment_by_id[250]
+
+2026-02-17 02:31:01 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:01 | api_test | INFO |  Running: tests/test_comments.py::TestComments::test_get_comment_by_id[500]
+2026-02-17 02:31:01 | api_test | INFO | ============================================================
+2026-02-17 02:31:02 | api_test | ERROR | FAILED: tests/test_comments.py::TestComments::test_get_comment_by_id[500]
+2026-02-17 02:31:02 | api_test | ERROR |      Error: tests\test_comments.py:37: in test_get_comment_by_id
+    response = api_client.get_comment(comment_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:127: in get_comment
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:31:02 | api_test | INFO |  Finished: test_get_comment_by_id[500]
+
+2026-02-17 02:31:02 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:02 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_get_all_posts
+2026-02-17 02:31:02 | api_test | INFO | ============================================================
+2026-02-17 02:31:02 | api_test | ERROR | FAILED: tests/test_posts.py::TestPosts::test_get_all_posts
+2026-02-17 02:31:02 | api_test | ERROR |      Error: tests\test_posts.py:11: in test_get_all_posts
+    response = api_client.get_posts()
+               ^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:77: in get_posts
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:31:02 | api_test | INFO |  Finished: test_get_all_posts
+
+2026-02-17 02:31:02 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:02 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_get_post_by_id[1]
+2026-02-17 02:31:02 | api_test | INFO | ============================================================
+2026-02-17 02:31:02 | api_test | ERROR | FAILED: tests/test_posts.py::TestPosts::test_get_post_by_id[1]
+2026-02-17 02:31:02 | api_test | ERROR |      Error: tests\test_posts.py:44: in test_get_post_by_id
+    response = api_client.get_post(post_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:85: in get_post
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:31:02 | api_test | INFO |  Finished: test_get_post_by_id[1]
+
+2026-02-17 02:31:02 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:02 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_get_post_by_id[5]
+2026-02-17 02:31:02 | api_test | INFO | ============================================================
+2026-02-17 02:31:02 | api_test | ERROR | FAILED: tests/test_posts.py::TestPosts::test_get_post_by_id[5]
+2026-02-17 02:31:02 | api_test | ERROR |      Error: tests\test_posts.py:44: in test_get_post_by_id
+    response = api_client.get_post(post_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:85: in get_post
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:31:02 | api_test | INFO |  Finished: test_get_post_by_id[5]
+
+2026-02-17 02:31:02 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:02 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_get_post_by_id[10]
+2026-02-17 02:31:02 | api_test | INFO | ============================================================
+2026-02-17 02:31:02 | api_test | ERROR | FAILED: tests/test_posts.py::TestPosts::test_get_post_by_id[10]
+2026-02-17 02:31:02 | api_test | ERROR |      Error: tests\test_posts.py:44: in test_get_post_by_id
+    response = api_client.get_post(post_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:85: in get_post
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:31:02 | api_test | INFO |  Finished: test_get_post_by_id[10]
+
+2026-02-17 02:31:02 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:02 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_get_post_by_id[50]
+2026-02-17 02:31:02 | api_test | INFO | ============================================================
+2026-02-17 02:31:02 | api_test | ERROR | FAILED: tests/test_posts.py::TestPosts::test_get_post_by_id[50]
+2026-02-17 02:31:02 | api_test | ERROR |      Error: tests\test_posts.py:44: in test_get_post_by_id
+    response = api_client.get_post(post_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:85: in get_post
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:31:02 | api_test | INFO |  Finished: test_get_post_by_id[50]
+
+2026-02-17 02:31:02 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:02 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_get_post_by_id[100]
+2026-02-17 02:31:02 | api_test | INFO | ============================================================
+2026-02-17 02:31:03 | api_test | ERROR | FAILED: tests/test_posts.py::TestPosts::test_get_post_by_id[100]
+2026-02-17 02:31:03 | api_test | ERROR |      Error: tests\test_posts.py:44: in test_get_post_by_id
+    response = api_client.get_post(post_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+utils\api_client.py:85: in get_post
+    self._log_response(response)
+    ^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'APIClient' object has no attribute '_log_response'. Did you mean: '_log_responce'?
+2026-02-17 02:31:03 | api_test | INFO |  Finished: test_get_post_by_id[100]
+
+2026-02-17 02:31:03 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:03 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_get_all_users
+2026-02-17 02:31:03 | api_test | INFO | ============================================================
+2026-02-17 02:31:03 | api_test | INFO | Status: 200
+2026-02-17 02:31:03 | api_test | INFO | ✅ PASSED: tests/test_users.py::TestUsers::test_get_all_users
+2026-02-17 02:31:03 | api_test | INFO |  Finished: test_get_all_users
+
+2026-02-17 02:31:03 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:03 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_get_user_by_id[1]
+2026-02-17 02:31:03 | api_test | INFO | ============================================================
+2026-02-17 02:31:03 | api_test | INFO | Status: 200
+2026-02-17 02:31:03 | api_test | INFO | ✅ PASSED: tests/test_users.py::TestUsers::test_get_user_by_id[1]
+2026-02-17 02:31:03 | api_test | INFO |  Finished: test_get_user_by_id[1]
+
+2026-02-17 02:31:03 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:03 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_get_user_by_id[2]
+2026-02-17 02:31:03 | api_test | INFO | ============================================================
+2026-02-17 02:31:03 | api_test | INFO | Status: 200
+2026-02-17 02:31:03 | api_test | INFO | ✅ PASSED: tests/test_users.py::TestUsers::test_get_user_by_id[2]
+2026-02-17 02:31:03 | api_test | INFO |  Finished: test_get_user_by_id[2]
+
+2026-02-17 02:31:03 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:03 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_get_user_by_id[3]
+2026-02-17 02:31:03 | api_test | INFO | ============================================================
+2026-02-17 02:31:03 | api_test | INFO | Status: 200
+2026-02-17 02:31:03 | api_test | INFO | ✅ PASSED: tests/test_users.py::TestUsers::test_get_user_by_id[3]
+2026-02-17 02:31:03 | api_test | INFO |  Finished: test_get_user_by_id[3]
+
+2026-02-17 02:31:03 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:03 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_get_user_by_id[5]
+2026-02-17 02:31:03 | api_test | INFO | ============================================================
+2026-02-17 02:31:03 | api_test | INFO | Status: 200
+2026-02-17 02:31:03 | api_test | INFO | ✅ PASSED: tests/test_users.py::TestUsers::test_get_user_by_id[5]
+2026-02-17 02:31:03 | api_test | INFO |  Finished: test_get_user_by_id[5]
+
+2026-02-17 02:31:03 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:03 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_get_user_by_id[10]
+2026-02-17 02:31:03 | api_test | INFO | ============================================================
+2026-02-17 02:31:03 | api_test | INFO | Status: 200
+2026-02-17 02:31:03 | api_test | INFO | ✅ PASSED: tests/test_users.py::TestUsers::test_get_user_by_id[10]
+2026-02-17 02:31:03 | api_test | INFO |  Finished: test_get_user_by_id[10]
+
+2026-02-17 02:31:03 | api_test | INFO | 
+============================================================
+2026-02-17 02:31:03 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_users_response_headers
+2026-02-17 02:31:03 | api_test | INFO | ============================================================
+2026-02-17 02:31:03 | api_test | INFO | Status: 200
+2026-02-17 02:31:03 | api_test | INFO | ✅ PASSED: tests/test_users.py::TestUsers::test_users_response_headers
+2026-02-17 02:31:03 | api_test | INFO |  Finished: test_users_response_headers
+
+2026-02-17 02:31:03 | api_test | INFO | ================================================================================
+2026-02-17 02:31:03 | api_test | INFO |  TEST SESSION COMPLETED
+2026-02-17 02:31:03 | api_test | INFO | ================================================================================

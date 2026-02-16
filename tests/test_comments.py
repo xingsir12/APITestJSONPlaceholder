@@ -14,7 +14,7 @@ class TestComments:
         comments = response.json()
         assert len(comments) == 500  # Всего 500 комментариев
     
-    @pytest.mark.regresssion
+    @pytest.mark.regression
     @pytest.mark.api
     def test_get_comments_by_post(self, api_client):
         """Проверка получения комментариев к посту"""

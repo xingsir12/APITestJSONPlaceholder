@@ -1,0 +1,51 @@
+2026-02-17 02:28:08 | api_test | INFO | 
+============================================================
+2026-02-17 02:28:08 | api_test | INFO |  Running: tests/test_comments.py::TestComments::test_comments_have_required_fields
+2026-02-17 02:28:08 | api_test | INFO | ============================================================
+2026-02-17 02:28:08 | api_test | INFO | ================================================================================
+2026-02-17 02:28:08 | api_test | INFO |  STARTING TEST SESSION
+2026-02-17 02:28:08 | api_test | INFO | ================================================================================
+2026-02-17 02:28:09 | api_test | INFO |  Finished: test_comments_have_required_fields
+
+2026-02-17 02:28:09 | api_test | INFO | 
+============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_get_posts_by_user
+2026-02-17 02:28:09 | api_test | INFO | ============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Finished: test_get_posts_by_user
+
+2026-02-17 02:28:09 | api_test | INFO | 
+============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_create_post
+2026-02-17 02:28:09 | api_test | INFO | ============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Finished: test_create_post
+
+2026-02-17 02:28:09 | api_test | INFO | 
+============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_update_post
+2026-02-17 02:28:09 | api_test | INFO | ============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Finished: test_update_post
+
+2026-02-17 02:28:09 | api_test | INFO | 
+============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Running: tests/test_posts.py::TestPosts::test_delete_post
+2026-02-17 02:28:09 | api_test | INFO | ============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Finished: test_delete_post
+
+2026-02-17 02:28:09 | api_test | INFO | 
+============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_create_user
+2026-02-17 02:28:09 | api_test | INFO | ============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Finished: test_create_user
+
+2026-02-17 02:28:09 | api_test | INFO | 
+============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_update_user
+2026-02-17 02:28:09 | api_test | INFO | ============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Finished: test_update_user
+
+2026-02-17 02:28:09 | api_test | INFO | 
+============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Running: tests/test_users.py::TestUsers::test_delete_user
+2026-02-17 02:28:09 | api_test | INFO | ============================================================
+2026-02-17 02:28:09 | api_test | INFO |  Finished: test_delete_user
+
